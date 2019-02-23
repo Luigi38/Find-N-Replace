@@ -1,0 +1,14 @@
+C:\Users\SAMSUNG\Documents\Visual Studio 2017\Projects\UniConverter Project\Find N Replace\bin\Release\Find N Replace.exe.config
+C:\Users\SAMSUNG\Documents\Visual Studio 2017\Projects\UniConverter Project\Find N Replace\bin\Release\Find N Replace.exe
+C:\Users\SAMSUNG\Documents\Visual Studio 2017\Projects\UniConverter Project\Find N Replace\bin\Release\Find N Replace.pdb
+C:\Users\SAMSUNG\Documents\Visual Studio 2017\Projects\UniConverter Project\Find N Replace\bin\Release\Find N Replace.xml
+C:\Users\SAMSUNG\Documents\Visual Studio 2017\Projects\UniConverter Project\Find N Replace\bin\Release\FastColoredTextBox.dll
+C:\Users\SAMSUNG\Documents\Visual Studio 2017\Projects\UniConverter Project\Find N Replace\obj\Release\Find N Replace.vbprojAssemblyReference.cache
+C:\Users\SAMSUNG\Documents\Visual Studio 2017\Projects\UniConverter Project\Find N Replace\obj\Release\Find_N_Replace.MainProject.resources
+C:\Users\SAMSUNG\Documents\Visual Studio 2017\Projects\UniConverter Project\Find N Replace\obj\Release\Find_N_Replace.Resources.resources
+C:\Users\SAMSUNG\Documents\Visual Studio 2017\Projects\UniConverter Project\Find N Replace\obj\Release\Find N Replace.vbproj.GenerateResource.cache
+C:\Users\SAMSUNG\Documents\Visual Studio 2017\Projects\UniConverter Project\Find N Replace\obj\Release\Find N Replace.vbproj.CoreCompileInputs.cache
+C:\Users\SAMSUNG\Documents\Visual Studio 2017\Projects\UniConverter Project\Find N Replace\obj\Release\Find N Replace.vbproj.CopyComplete
+C:\Users\SAMSUNG\Documents\Visual Studio 2017\Projects\UniConverter Project\Find N Replace\obj\Release\Find N Replace.exe
+C:\Users\SAMSUNG\Documents\Visual Studio 2017\Projects\UniConverter Project\Find N Replace\obj\Release\Find N Replace.xml
+C:\Users\SAMSUNG\Documents\Visual Studio 2017\Projects\UniConverter Project\Find N Replace\obj\Release\Find N Replace.pdb

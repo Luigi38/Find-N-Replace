@@ -1,0 +1,13 @@
+C:\Users\SAMSUNG\documents\visual studio 2017\Projects\UniConverter Project\Find N Replace\bin\Debug\Find N Replace.exe.config
+C:\Users\SAMSUNG\documents\visual studio 2017\Projects\UniConverter Project\Find N Replace\bin\Debug\Find N Replace.exe
+C:\Users\SAMSUNG\documents\visual studio 2017\Projects\UniConverter Project\Find N Replace\bin\Debug\Find N Replace.pdb
+C:\Users\SAMSUNG\documents\visual studio 2017\Projects\UniConverter Project\Find N Replace\bin\Debug\Find N Replace.xml
+C:\Users\SAMSUNG\documents\visual studio 2017\Projects\UniConverter Project\Find N Replace\obj\Debug\Find N Replace.vbprojAssemblyReference.cache
+C:\Users\SAMSUNG\documents\visual studio 2017\Projects\UniConverter Project\Find N Replace\obj\Debug\Find_N_Replace.MainProject.resources
+C:\Users\SAMSUNG\documents\visual studio 2017\Projects\UniConverter Project\Find N Replace\obj\Debug\Find_N_Replace.Resources.resources
+C:\Users\SAMSUNG\documents\visual studio 2017\Projects\UniConverter Project\Find N Replace\obj\Debug\Find N Replace.vbproj.GenerateResource.cache
+C:\Users\SAMSUNG\documents\visual studio 2017\Projects\UniConverter Project\Find N Replace\obj\Debug\Find N Replace.vbproj.CoreCompileInputs.cache
+C:\Users\SAMSUNG\documents\visual studio 2017\Projects\UniConverter Project\Find N Replace\obj\Debug\Find N Replace.vbproj.CopyComplete
+C:\Users\SAMSUNG\documents\visual studio 2017\Projects\UniConverter Project\Find N Replace\obj\Debug\Find N Replace.exe
+C:\Users\SAMSUNG\documents\visual studio 2017\Projects\UniConverter Project\Find N Replace\obj\Debug\Find N Replace.xml
+C:\Users\SAMSUNG\documents\visual studio 2017\Projects\UniConverter Project\Find N Replace\obj\Debug\Find N Replace.pdb
