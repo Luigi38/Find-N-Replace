@@ -27,7 +27,6 @@ Partial Class MainProject
         Me.VerText = New System.Windows.Forms.Label()
         Me.InfoText1 = New System.Windows.Forms.Label()
         Me.FNR_Icon = New System.Windows.Forms.PictureBox()
-        Me.NTextBox = New FastColoredTextBoxNS.FastColoredTextBox()
         Me.CopyButton = New System.Windows.Forms.Button()
         Me.FNRButton = New System.Windows.Forms.Button()
         Me.OpenTextButton = New System.Windows.Forms.Button()
@@ -41,12 +40,15 @@ Partial Class MainProject
         Me.TrimButton = New System.Windows.Forms.RadioButton()
         Me.RTrimButton = New System.Windows.Forms.RadioButton()
         Me.LTrimButton = New System.Windows.Forms.RadioButton()
+        Me.UseOriginalButton = New System.Windows.Forms.Button()
         Me.ofd_path = New System.Windows.Forms.OpenFileDialog()
         Me.sfd_path = New System.Windows.Forms.SaveFileDialog()
+        Me.NTextBox2 = New System.Windows.Forms.TextBox()
+        Me.NTextBox1 = New FastColoredTextBoxNS.FastColoredTextBox()
         CType(Me.FNR_Icon, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.NTextBox, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.OptionGroupBox.SuspendLayout()
         Me.TrimGroupBox.SuspendLayout()
+        CType(Me.NTextBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'VerText
@@ -78,25 +80,6 @@ Partial Class MainProject
         Me.FNR_Icon.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.FNR_Icon.TabIndex = 22
         Me.FNR_Icon.TabStop = False
-        '
-        'NTextBox
-        '
-        Me.NTextBox.AutoCompleteBracketsList = New Char() {Global.Microsoft.VisualBasic.ChrW(40), Global.Microsoft.VisualBasic.ChrW(41), Global.Microsoft.VisualBasic.ChrW(123), Global.Microsoft.VisualBasic.ChrW(125), Global.Microsoft.VisualBasic.ChrW(91), Global.Microsoft.VisualBasic.ChrW(93), Global.Microsoft.VisualBasic.ChrW(34), Global.Microsoft.VisualBasic.ChrW(34), Global.Microsoft.VisualBasic.ChrW(39), Global.Microsoft.VisualBasic.ChrW(39)}
-        Me.NTextBox.AutoScrollMinSize = New System.Drawing.Size(27, 14)
-        Me.NTextBox.BackBrush = Nothing
-        Me.NTextBox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.NTextBox.CharHeight = 14
-        Me.NTextBox.CharWidth = 8
-        Me.NTextBox.Cursor = System.Windows.Forms.Cursors.IBeam
-        Me.NTextBox.DisabledColor = System.Drawing.Color.FromArgb(CType(CType(100, Byte), Integer), CType(CType(180, Byte), Integer), CType(CType(180, Byte), Integer), CType(CType(180, Byte), Integer))
-        Me.NTextBox.IsReplaceMode = False
-        Me.NTextBox.Location = New System.Drawing.Point(12, 12)
-        Me.NTextBox.Name = "NTextBox"
-        Me.NTextBox.Paddings = New System.Windows.Forms.Padding(0)
-        Me.NTextBox.SelectionColor = System.Drawing.Color.FromArgb(CType(CType(60, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.NTextBox.Size = New System.Drawing.Size(731, 437)
-        Me.NTextBox.TabIndex = 42
-        Me.NTextBox.Zoom = 100
         '
         'CopyButton
         '
@@ -177,10 +160,11 @@ Partial Class MainProject
         'OptionGroupBox
         '
         Me.OptionGroupBox.Controls.Add(Me.TrimGroupBox)
+        Me.OptionGroupBox.Controls.Add(Me.UseOriginalButton)
         Me.OptionGroupBox.Font = New System.Drawing.Font("Verdana", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.OptionGroupBox.Location = New System.Drawing.Point(749, 132)
         Me.OptionGroupBox.Name = "OptionGroupBox"
-        Me.OptionGroupBox.Size = New System.Drawing.Size(174, 131)
+        Me.OptionGroupBox.Size = New System.Drawing.Size(174, 203)
         Me.OptionGroupBox.TabIndex = 52
         Me.OptionGroupBox.TabStop = False
         Me.OptionGroupBox.Text = "Options"
@@ -227,12 +211,52 @@ Partial Class MainProject
         Me.LTrimButton.Text = "LTrim (TrimStart)"
         Me.LTrimButton.UseVisualStyleBackColor = True
         '
+        'UseOriginalButton
+        '
+        Me.UseOriginalButton.Font = New System.Drawing.Font("Ubuntu", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.UseOriginalButton.Location = New System.Drawing.Point(7, 123)
+        Me.UseOriginalButton.Name = "UseOriginalButton"
+        Me.UseOriginalButton.Size = New System.Drawing.Size(161, 69)
+        Me.UseOriginalButton.TabIndex = 53
+        Me.UseOriginalButton.Text = "Use The Original Text Box!"
+        Me.UseOriginalButton.UseVisualStyleBackColor = True
+        '
+        'NTextBox2
+        '
+        Me.NTextBox2.Location = New System.Drawing.Point(11, 12)
+        Me.NTextBox2.Multiline = True
+        Me.NTextBox2.Name = "NTextBox2"
+        Me.NTextBox2.Size = New System.Drawing.Size(731, 436)
+        Me.NTextBox2.TabIndex = 54
+        '
+        'NTextBox1
+        '
+        Me.NTextBox1.AutoCompleteBracketsList = New Char() {Global.Microsoft.VisualBasic.ChrW(40), Global.Microsoft.VisualBasic.ChrW(41), Global.Microsoft.VisualBasic.ChrW(123), Global.Microsoft.VisualBasic.ChrW(125), Global.Microsoft.VisualBasic.ChrW(91), Global.Microsoft.VisualBasic.ChrW(93), Global.Microsoft.VisualBasic.ChrW(34), Global.Microsoft.VisualBasic.ChrW(34), Global.Microsoft.VisualBasic.ChrW(39), Global.Microsoft.VisualBasic.ChrW(39)}
+        Me.NTextBox1.AutoScrollMinSize = New System.Drawing.Size(27, 14)
+        Me.NTextBox1.BackBrush = Nothing
+        Me.NTextBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.NTextBox1.CharHeight = 14
+        Me.NTextBox1.CharWidth = 8
+        Me.NTextBox1.Cursor = System.Windows.Forms.Cursors.IBeam
+        Me.NTextBox1.DisabledColor = System.Drawing.Color.FromArgb(CType(CType(100, Byte), Integer), CType(CType(180, Byte), Integer), CType(CType(180, Byte), Integer), CType(CType(180, Byte), Integer))
+        Me.NTextBox1.Font = New System.Drawing.Font("Courier New", 9.75!)
+        Me.NTextBox1.IsReplaceMode = False
+        Me.NTextBox1.Location = New System.Drawing.Point(11, 12)
+        Me.NTextBox1.Name = "NTextBox1"
+        Me.NTextBox1.Paddings = New System.Windows.Forms.Padding(0)
+        Me.NTextBox1.SelectionColor = System.Drawing.Color.FromArgb(CType(CType(60, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.NTextBox1.Size = New System.Drawing.Size(731, 436)
+        Me.NTextBox1.TabIndex = 55
+        Me.NTextBox1.Zoom = 100
+        '
         'MainProject
         '
         Me.AllowDrop = True
         Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 12.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(935, 561)
+        Me.Controls.Add(Me.NTextBox1)
+        Me.Controls.Add(Me.NTextBox2)
         Me.Controls.Add(Me.OptionGroupBox)
         Me.Controls.Add(Me.TipLabel2)
         Me.Controls.Add(Me.RepTextBox)
@@ -242,7 +266,6 @@ Partial Class MainProject
         Me.Controls.Add(Me.OpenTextButton)
         Me.Controls.Add(Me.FNRButton)
         Me.Controls.Add(Me.CopyButton)
-        Me.Controls.Add(Me.NTextBox)
         Me.Controls.Add(Me.VerText)
         Me.Controls.Add(Me.InfoText1)
         Me.Controls.Add(Me.FNR_Icon)
@@ -250,10 +273,10 @@ Partial Class MainProject
         Me.Name = "MainProject"
         Me.Text = "Find N Replace"
         CType(Me.FNR_Icon, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.NTextBox, System.ComponentModel.ISupportInitialize).EndInit()
         Me.OptionGroupBox.ResumeLayout(False)
         Me.TrimGroupBox.ResumeLayout(False)
         Me.TrimGroupBox.PerformLayout()
+        CType(Me.NTextBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -262,7 +285,6 @@ Partial Class MainProject
     Friend WithEvents VerText As Label
     Friend WithEvents InfoText1 As Label
     Friend WithEvents FNR_Icon As PictureBox
-    Friend WithEvents NTextBox As FastColoredTextBoxNS.FastColoredTextBox
     Friend WithEvents CopyButton As Button
     Friend WithEvents FNRButton As Button
     Friend WithEvents OpenTextButton As Button
@@ -278,4 +300,7 @@ Partial Class MainProject
     Friend WithEvents ofd_path As OpenFileDialog
     Friend WithEvents sfd_path As SaveFileDialog
     Friend WithEvents TrimButton As RadioButton
+    Friend WithEvents UseOriginalButton As Button
+    Friend WithEvents NTextBox2 As TextBox
+    Friend WithEvents NTextBox1 As FastColoredTextBoxNS.FastColoredTextBox
 End Class
