@@ -1,4 +1,5 @@
 # Find-N-Replace
+# (Project Closed)
 This App does finding and replacing the Text! Also, You can open and write and save it. Even, You can set options! :D
 
 Introducing Find N Replace...
